@@ -1,4 +1,6 @@
 Steps to isntall:
+Open Command prompt or consoleZ.
+Enter below command
 
 npm install
 
