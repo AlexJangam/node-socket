@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.clientBox{float:left;width:200px;}.socketBox{width:400px;border:1px solid;height:300px;float:left;margin:5px;}
+.inputContents{margin:5px;height:240px;border:1px solid;}
+</style>
+</head>
+<body>
+<div id="connection1">
+  <div class="clientBox"><input class="clientName" value="clnt1"></input></div>
+  <div class="clientBox"><input class="clientName" value="clnt2"></input></div>
+  <div class="clientBox"><input class="clientName" value="clnt3"></input></div>
+  <button class="setArr">Set Clients</button>
+  <button class="getSockets">get Sockets</button>
+  <button class="closeSockets">Close Connections</button>
+</div>
+<div class="socketBoxes">
+  <div class="socketBox remove">
+    <div>Socket : socketname</div>
+    <div class="inputContents"></div>
+    <input class="sendText"/><button class="sendTextBtn">send message</button>
+  </div>
+</div>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="client-socket.js"></script>
+</body>
+</html>

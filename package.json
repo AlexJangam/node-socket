@@ -1,0 +1,21 @@
+{
+  "name": "nodesocket",
+  "version": "1.0.0",
+  "description": "A dynamic, browser-based visualization library.",
+  "license": "(Apache-2.0 OR MIT)",
+  "keywords": [
+
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "websocket": "1.0.22",
+	"connect":"3.4.0",
+	"serve-static":"1.10.0",
+    "express": "4.13.3",
+	"express-ws":"1.0.0-rc.2",
+    "body-parser": "1.14.2"
+  }
+}
