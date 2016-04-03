@@ -1,10 +1,11 @@
-npm install websocket
-npm install connect
-npm install serve-static
-npm install express
-npm install express-ws
-npm install body-parser
+Steps to isntall:
 
-#npm install node-gyp python
-#npm install python
-#npm install socket.io@"1.3.7"
+npm install
+
+
+Run Test:
+Open 
+localhost:1024/public/socket-test.html 
+on two different windos of different or same browser.
+
+Send messages and receive messages with different connections(set for 3 in test html).
